@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+.grid-table {
+    display: table;
+}
+
+.thead {
+    display: table-header-group;
+    font-weight: bold;
+    border-bottom: 1px bottom black;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.tbody {
+    display: table-row-group;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    padding: 10 1 1 5;
+}
+
+.thead div.tr div.td:last-child {
+    background-color: rgb(255, 255, 255);
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+input.ng-invalid.ng-touchable,
+select.ng-invalid.ng-touchable {
+    border-color: #9999;
+}
+
+.elementToFadeInAndOut {
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinout {
+    50% {
+        opacity: 1;
+    }
+}
